@@ -1,0 +1,189 @@
+/**************************************** 
+GENERAL
+****************************************/
+
+@font-face {
+  font-family: "eight_one";
+  src: url("../fonts/eight_one/eight_one.ttf");
+}
+
+body {
+	font-family: 'Nova Mono', sans-serif;
+}
+
+#wrapper {
+	max-width: 80%;
+	margin: 5% auto 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+h3 {
+	margin: 0 0 1em 0;
+}
+
+#main {
+  padding: 5%;
+  border: 1px solid #555;
+}
+
+/**************************************** 
+NAVIGATION
+****************************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 50px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+
+
+/**************************************** 
+FOOTER
+****************************************/
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: #A0A0A0;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+
+
+/**************************************** 
+PAGE: HOME
+****************************************/
+
+#logo {
+	text-align: center;
+}
+
+#logo a img {
+	max-width: 80%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+
+/**************************************** 
+PAGE: ABOUT
+****************************************/
+
+#small {
+  float: right;
+  width: 20%;
+  margin: -4% 0 0;
+}
+
+
+/**************************************** 
+PAGE: CONTACT
+****************************************/
+
+#small {
+  float: right;
+  width: 20%;
+  margin: -4% 0 0;
+}
+
+#one, #two {
+  padding: 2.5% 0;
+}
+
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contact-info a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+	background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/mail.png');
+}
+
+
+/**************************************** 
+COLOR
+****************************************/
+
+/*
+Brecancar colors
+light blue #4199D7
+medium blue #4C5F92
+dark blue #193E86
+*/
+
+
+/* Site body style */
+body {
+	background-color: #fff;
+	color: #777;
+}
+
+/* Link Color */
+a {
+	color: #4199D7;
+}
+
+/* nav link */
+nav a, nav a:visited {
+	color: #4199D7;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+	color: #193E86;
+}
+
+
+
+
+
+
+
+
